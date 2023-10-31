@@ -41,7 +41,7 @@ namespace Newproject
             MySqlDataReader dr;
             con.Open();
             dr = cmd.ExecuteReader();
-            MessageBox.Show("Successfully Saved");
+            MessageBox.Show("Successfully Data Saved");
             con.Close();
             
 
